@@ -1,0 +1,3 @@
+[submodule "lib/Adafruit_nRF8001"]
+	path = lib/Adafruit_nRF8001
+	url = https://github.com/adafruit/Adafruit_nRF8001
