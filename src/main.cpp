@@ -1,8 +1,10 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <Adafruit_BLE_UART.h>
+#include <Scool.h>
 
 #include "Route.h"
+
 
 
 // BLE connection
