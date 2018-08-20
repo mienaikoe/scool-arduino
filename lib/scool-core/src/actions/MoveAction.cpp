@@ -8,7 +8,11 @@ namespace Scool {
 
     MoveAction::MoveAction(char packet[])
     : Action::Action(packet){
-
+      this->routine = new MoveRoutine();
+      this->conditions = {
+        new ObstacleCondition(),
+        new DestinationCondition()
+      };
     }
 
     void MoveAction::start( int startTime ){
