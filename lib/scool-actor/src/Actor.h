@@ -2,27 +2,19 @@
 #ifndef SCOOL_NODE_H
 #define SCOOL_NODE_H
 
-#include <Scool.h>
+#include "../lib/scool-core/src/Scool.h"
+// TODO: Libs should be separated
+#include "motion/MoveAction.h"
 
 
 namespace Scool {
 
-
-
-  typedef enum {
-
-  }
-
-
-  class Node {
-    Action* actions;
+  class Actor {
 
     public:
-      Node();
+      Actor();
       void loop();
 
-    private:
-      void listen();
   };
 
 };

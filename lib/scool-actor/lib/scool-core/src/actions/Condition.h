@@ -6,8 +6,7 @@ namespace Scool {
   namespace Core {
     class Condition {
       public:
-        bool check();
-        void handle();
+        virtual bool checkAndHandle();
     };
   }
 }
